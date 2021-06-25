@@ -26,3 +26,11 @@ user-tabs .nav-tabs > li > a {
     color:#ffc101;
 }
 
+.border-bottom{
+  border-bottom : 1px solid #DEE2E6
+}
+
+.font{
+  font-size:15px;
+  margin-top:73px;
+}
