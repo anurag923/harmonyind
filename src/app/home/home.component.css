@@ -1,0 +1,28 @@
+user-tabs .nav-tabs > li > a {
+	border: 0;
+	border-bottom: 3px solid transparent;
+    color: #3e3e3e;
+    font-weight: 600;
+    padding: 20px;
+}
+.user-tabs .nav-tabs.nav-tabs-bottom > li > a.active,
+.user-tabs .nav-tabs.nav-tabs-bottom > li > a.active:hover,
+.user-tabs .nav-tabs.nav-tabs-bottom > li > a.active:focus {
+  color:#fff;
+  background-color: #ffc101;
+
+}
+.user-tabs .med-records {
+	display: inline-block;
+	min-width: 130px;
+}
+.user-tabs .nav-tabs > li > a:hover {
+	background-color: #ffc101;
+	color: #fff;
+  cursor: pointer;
+}
+
+.default{
+    color:#ffc101;
+}
+
