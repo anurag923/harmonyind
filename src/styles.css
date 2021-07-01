@@ -8,3 +8,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .bg-black{
     background: black;
    }
+.background{
+    background-image: url(/assets/images/genrebg.jpg);
+    height: 250px;
+}

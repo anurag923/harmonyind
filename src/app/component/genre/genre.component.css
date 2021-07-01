@@ -1,7 +1,3 @@
-.background{
-    background-image: url(../../../assets/images/genrebg.jpg);
-    height: 250px;
-}
 .active{
     background:black;
     color:white;
