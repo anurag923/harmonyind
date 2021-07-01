@@ -73,16 +73,16 @@
                   <nav class="user-tabs mb-4">
                     <ul class="nav nav-tabs nav-tabs-bottom nav-justified">
                       <li class="nav-item">
-                        <a class="nav-link active default"data-toggle="tab" (click)="prestoriesview()">Pre-Stories</a>
+                        <a class="nav-link active text-dark"data-toggle="tab" (click)="prestoriesview()">Pre-Stories</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link default" data-toggle="tab" (click)="topcategoriesview()">Top Categories</a>
+                        <a class="nav-link text-dark" data-toggle="tab" (click)="topcategoriesview()">Top Categories</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link default" data-toggle="tab" (click)="toppicksforyouview()">Top Picks For You</a>
+                        <a class="nav-link text-dark" data-toggle="tab" (click)="toppicksforyouview()">Top Picks For You</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link default" data-toggle="tab" (click)="booksforthismonthview()">Books for This Month</a>
+                        <a class="nav-link text-dark" data-toggle="tab" (click)="booksforthismonthview()">Books for This Month</a>
                       </li>
                     </ul>
                   </nav>
@@ -121,7 +121,9 @@
                         <img src="/assets/images/fiction.jpg" height="250" class="card-img-top" alt="...">
                       </div>
                     </div>
-          
+                    <div >
+                      <a class="float-right" routerLink="/genre">view more</a>
+                    </div>
                   </div>
 
                   <div class="tab-content" *ngIf="toppicksforyou">
@@ -481,7 +483,70 @@
       </div>
     </div>
   </div>
-
+  <section class="mt-5">
+    <div class="container">
+      <div class="row mb-3 d-flex justify-content-center border-bottom">
+        <h3 class="default">Top Genres</h3>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <ul class="list-unstyled text-center">
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="list-unstyled text-center">
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="list-unstyled text-center">
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="list-unstyled text-center">
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="list-unstyled text-center">
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="list-unstyled text-center">
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+            <li><input type="checkbox" name="" id="">Genre</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-12">
+          <div>
+          <button class="btn btn-warning btn-lg float-right">Search</button>
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
   <section class="mt-3">
     <div class="row border-bottom">
       <div class="col-6">

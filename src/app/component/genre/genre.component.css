@@ -1,0 +1,21 @@
+.background{
+    background-image: url(../../../assets/images/genrebg.jpg);
+    height: 250px;
+}
+.active{
+    background:black;
+    color:white;
+    cursor: pointer;
+}
+
+.hover:hover{
+    background:black;
+    color:white;
+    cursor: pointer;
+}
+
+.hover:focus{
+    background:black;
+    color:white;
+    cursor: pointer;
+}

@@ -8,8 +8,8 @@ user-tabs .nav-tabs > li > a {
 .user-tabs .nav-tabs.nav-tabs-bottom > li > a.active,
 .user-tabs .nav-tabs.nav-tabs-bottom > li > a.active:hover,
 .user-tabs .nav-tabs.nav-tabs-bottom > li > a.active:focus {
-  color:#fff;
-  background-color: #ffc101;
+  color:#fff !important;
+  background-color: black;
 
 }
 .user-tabs .med-records {
@@ -17,14 +17,14 @@ user-tabs .nav-tabs > li > a {
 	min-width: 130px;
 }
 .user-tabs .nav-tabs > li > a:hover {
-	background-color: #ffc101;
-	color: #fff;
+	background-color: black;
+	color: #fff !important;
   cursor: pointer;
 }
 
-.default{
+/* .default{
     color:#ffc101;
-}
+} */
 
 .border-bottom{
   border-bottom : 1px solid #DEE2E6
